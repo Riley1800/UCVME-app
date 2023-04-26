@@ -100,7 +100,7 @@ function CvCard() {
             <motion.div className="cv-card-heading-Video">
               <h2>{currentCv.name}'s UCVME Video</h2>
               //hard coded video for appearance
-              <video width="100%" height="750%" controls >
+              <video width="100%" height="75%" controls >
                 <source src="Video.mp4" type="video/mp4"/>
               </video>
             </motion.div>
